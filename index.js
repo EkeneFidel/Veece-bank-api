@@ -23,8 +23,8 @@ app.use((err, req, res, next) => {
   res.status(status).json({ success: false, message: err.message });
 });
 
-app.listen(PORT, () => {
+let server = app.listen(PORT, () => {
   console.log(`Listening on port: ${PORT}`);
 });
 
-module.exports = app;
+module.exports = { app, server };

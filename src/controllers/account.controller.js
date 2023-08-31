@@ -8,7 +8,7 @@ class AccountController {
     const newAccount = AccountService.createAccount(req.body);
     return res.status(200).json({
       success: true,
-      account: newAccount,
+      data: newAccount,
     });
   }
 
@@ -20,7 +20,7 @@ class AccountController {
     let accountDetails = AccountService.getAccountDetails(accountNumber);
     return res.status(200).json({
       success: true,
-      account: accountDetails,
+      data: accountDetails,
     });
   }
 
@@ -28,7 +28,7 @@ class AccountController {
     const accounts = AccountService.getAllAccounts();
     return res.status(200).json({
       success: true,
-      accounts,
+      data: accounts,
     });
   }
 }
