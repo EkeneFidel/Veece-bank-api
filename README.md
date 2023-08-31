@@ -1,6 +1,6 @@
 # Veece Bank Management API
 
-A simple bank management API
+The Bank Management API provides a set of endpoints to manage bank accounts. It allows you to create accounts, retrieve account details, and fetch a list of all accounts.
 
 [Bank management API live server](https://veece-bank-api.onrender.com) <br><br>
 [API documentation](https://documenter.getpostman.com/view/16637530/2s9Y5bRgjK) <br><br>
