@@ -1,6 +1,8 @@
 # Simple Bank Management API
 
 a simle bank management API
+[bank management api live server](https://veece-bank-api.onrender.com) <br><br>
+[API documentation](https://documenter.getpostman.com/view/16637530/2s9Y5bRgjK) <br><br>
 
 ## Features Implemented
 
